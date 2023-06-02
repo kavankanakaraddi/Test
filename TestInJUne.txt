@@ -1,0 +1,85 @@
+1	Public ststic void main (String args [])::---->>>public: It is an access specifier. We should use a public keyword before the main() method so that JVM can identify the execution point of the program. If we use private, protected, and default before the main() method, it will not be visible to JVM.
+
+	static: You can make a method static by using the keyword static. We should call the main() method without creating an object. Static methods are the method which invokes without creating the objects, so we do not need any object to call the main() method.
+	Play
+
+	void: In Java, every method has the return type and that main() method does not return any value.
+
+	main(): It is a default signature which is predefined in the JVM  It is called by JVM to execute a program line by line and end the execution  We can also overload the main() method.
+
+	String args[]: The main() method also accepts some data from the user. 
+
+	Classs----->>>>>> Groups of objects is Class
+
+	Object---->>>>>> Onjects are the real world entities  which is having state and beahviours 
+					
+
+
+
+	JVM---->>>java virtual machine,it is an abstract machine that enables computer to run a Java program.	
+	JRE---->>>java runtime environment,is a software package that Will gives us Java class libraries, and other 	components that are required to run Java applications.
+	JDK---->>>Java Development Kit is a software development kit required to develop applications in Java. When you download JDK, JRE is also downloaded with it.
+
+
+2   PROGRAM TO REVERSE A GIVEN NUMBER ------>>> 
+
+class  kavan
+
+public static void main(String[] args)   
+{  
+int number = 1234, reverse = 0;  
+while(number != 0)   
+{  
+int remainder = number % 10;  
+reverse = reverse * 10 + remainder;  
+number = number/10;  
+}  
+System.out.println("The reverse of the given number is: " + reverse);  
+}  
+
+
+
+
+ 3   PROGRAM TO REVERSE STRING ------>>>>>>
+
+
+
+ 
+class kavan {
+    public static void main (String[] args) {
+       
+        String str= "program", nstr="";
+        char ch;
+       
+      System.out.print("Original word: ");
+       
+      for (int i=0; i<str.length(); i++)
+      {
+        ch= str.charAt(i); 
+        nstr= ch+nstr; 
+      }
+      System.out.println("Reversed word: "+ nstr);
+    }
+}
+
+
+
+4	CONSTRUCTORS AND ITS TYPES----->>> Constructors is a special type of method whic is used to 
+
+
+	1 Default Constructor in Java
+	constructor that has no parameters is known as default the constructor. A default constructor is not visible. And if we write a constructor with no arguments, the compiler does not create a default constructor. It is being overloaded and called a parameterized constructor.
+
+
+	2 Parameterized Constructor 
+	constructor that has parameters is known as parameterized constructor. If we want to initialize fields of the class with  values, then use a parameterized constructor.
+
+
+5	DIFFERNCES BETWEEN THIS KEYWORD AND THIS()------>>>>
+		this keyword is used to refer to the current object, where the method is called.
+		this() is used to call one constructor from the other  same class.
+
+
+6	MAIN METHOD IS STATIC AND ITS TYPES 
+
+		Java main method is always static, so that compiler can call it without the creation of an object or before the creation of an object of the class.

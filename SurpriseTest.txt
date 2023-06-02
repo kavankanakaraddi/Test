@@ -1,0 +1,78 @@
+Test
+
+Java is Object oriented Programming langauge 
+javac Is the compiler which helps us to Read or Exicutes the java files 
+
+JDK:- Java Development Kit whisch helps for building Software Developments using java program
+JRE:- java Runtime Environment which helps to run the program correctly
+JVM:-JVM java virtual machine verifies and exicutes the program
+
+Limitations of array == will read
+
+Class,object,and signature of the class===will read
+
+differnce between .javaFile and .class files==will read
+
+method signature
+
+What is java::--
+Java is a  object oriented programming  langauge ,,widely used  popular programming language
+
+List  the  Java IDE 
+Eclipse 
+netbeans
+intellidea
+
+What is variable and its types
+variables which contains the  data
+local variable::-
+instance variable::-
+static variable::-
+
+15 java keywords
+abstract
+boolean
+new
+break 
+catch
+char
+float 
+if 
+long
+int 
+package
+static 
+short
+run
+return
+
+
+
+
+
+class variables
+Class Variable: It is basically a static variable that can be declared anywhere at class level 
+
+
+
+
+
+
+
+Datatypes and its types
+the container which stores the values in it
+primitive datatype::- int,char,float,char,boolean,double,byte,short,long
+non primitive datatype::-array,string,
+
+
+
+
+https://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@github.com/kavankanakaraddi/Test.git
+
+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
+
+
+
+
+ 
+
